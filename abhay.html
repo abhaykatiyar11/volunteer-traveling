@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+   <style>
+
+    .logo{
+        height: 90px;
+        width: 150px;
+        margin-left: 10px;
+        backface-visibility: hidden;
+    }
+    div{
+        display: flex;
+        border: solid black 1px;
+        border-radius: 10px;
+        
+    }
+    .menu{
+        margin-left: 150px;
+        font-family: sans-serif;
+    }
+    .space{
+            padding: 10px;
+    }
+    .search-input{
+        border: solid black 2px;
+        height: 30px;
+        width: 300px;
+        margin: 30px 0px 0px 200px;
+        
+    }
+    .search-container {
+        position: relative;
+        width: 300px;
+        margin: 50px auto;
+         
+    }
+
+    /* Search input field */
+    .search-input {
+        width: 50%;
+        padding: 10px 40px 10px 12px; /* space for icon on right */
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 25px;
+        outline: none;
+        transition: border-color 0.3s;
+       
+    }
+
+    .search-input:focus {
+        border-color: #007BFF;
+    }
+
+    /* Search icon styling */
+    .search-icon {
+        position: absolute;
+        right: 400px;
+        top: 55px;
+        transform: translateY(-50%);
+        font-size: 18px;
+        color: #888;
+        cursor: pointer;
+    }
+
+    /* Optional hover effect */
+    .search-icon:hover {
+        color: #007BFF;
+    }
+   </style>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   <div>
+    <img src="c:\Users\Student\Downloads\Gemini_Generated_Image_achu1wachu1wachu-removebg-preview.png" class="logo">
+   
+    <input type="search" class="search-input" placeholder="search..." name="search">
+     <i class="fas fa-search search-icon"></i>
+      <table class="menu">
+        <td>
+            <p>Home</p>
+        </td>
+         <td class="space">
+            <p>Opportunity</p>
+        </td>
+         <td class="space">
+            <p>Login</p>
+        </td>
+    </table>
+   </div>
+</body>
+</html>
